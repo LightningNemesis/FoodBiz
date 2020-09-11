@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('../src/bg/register.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    /* background: #34495e; */
+  }
+  .box {
+    width: 400px;
+    height: 690px;
+    padding-right: 40px;
+    padding-left: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -49%);
+    background: #F4FAEC;
+    text-align: center;
+    /* margin-right: 40%; */
+    margin-top: 12;
+  
+    align-items: center;
+    justify-content: center;
+  
+    -webkit-box-shadow: 21px 17px 25px 11px rgba(207,200,192,1);
+    -moz-box-shadow: 21px 17px 25px 11px rgba(207,200,192,1);
+    box-shadow: 21px 17px 25px 11px rgba(207,200,192,1);
+  }
+  .box h1 {
+    color: #7B3D15;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* padding-bottom: 3%; */
+    font-family: LoginFont;
+    font-size: 60px;
+  }
+  .box input[type='text'],
+  .box input[type='password'] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #7B3D15;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #7B3D15;
+    /* background-color: white; */
+    border-radius: 24px;
+    transition: 0.25s;
+    -webkit-box-shadow: 14px 11px 37px -5px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 14px 11px 37px -5px rgba(0, 0, 0, 0.67);
+    box-shadow: 14px 11px 37px -5px rgba(0, 0, 0, 0.67);
+  }
+  .box input[type='text']:focus,
+  .box input[type='password']:focus {
+    width: 280px;
+    border-color: #7B3D15;
+  }
+  .box input[type='submit'] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #7B3D15;
+    padding: 14px 40px;
+    outline: none;
+    color: #7B3D15;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    -webkit-box-shadow: 14px 11px 37px -5px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 14px 11px 37px -5px rgba(0, 0, 0, 0.67);
+    box-shadow: 14px 11px 37px -5px rgba(0, 0, 0, 0.67);
+  }
+  .box input[type='submit']:hover {
+    color: white;
+    background: #7B3D15;
+  }
+  
+  @font-face {
+    font-family: LoginFont;
+    src: url('../src/fonts/Lemon\ Tuesday.otf');
+  }
+
+  .link{
+    color: #7B3D15;
+    text-decoration: none;
+    transition: 0.25s;
+  }
+  
+  .link:hover{
+    color: rgb(228, 119, 77);
+    transition: 0.25s;
+    cursor: pointer;
+  }

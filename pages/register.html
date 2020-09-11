@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>َAnimated Login Form</title>
+  <link rel="stylesheet" href="../css/register.css">
+  <script src="../script/register.js"></script>
+</head>
+
+<body>
+
+  <form class="box effect2" action="../login.html" onsubmit="return validate()">
+    <h1>Register</h1>
+    <input type="text" id = "firstName" name="" placeholder="First Name" required>
+    <input type="text" id = "lastName" name="" placeholder="Last Name" required>
+    <input type="text" id = "phNum" pattern="[1-9]{1}[0-9]{9}" maxlength="10" name="" placeholder="Phone Number" required>
+    <input type="text" id = "emaiId" name="" placeholder="Email id" required>
+
+    <input type="password" id ="pass1" name="" placeholder="Password" required>
+    <input type="password" id ="pass2" name="" placeholder="Confirm Password" required>
+    <input type="submit" name="" value="Register">
+    <a class="link" href="../login.html">Already a member? Login!</a>
+  </form>
+
+
+</body>
+
+</html>
